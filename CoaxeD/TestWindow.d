@@ -150,6 +150,7 @@ private import gtk.TreePath;
 private import gtk.CellRenderer;
 private import gtk.CellRendererPixbuf;
 
+private import gdk.Screen;
 private import gtk.CssProvider;			// Tobo
 
 /**
@@ -163,7 +164,7 @@ class TestWindow : MainWindow
 	 * Executed when the user tries to close the window
 	 * @return true to refuse to close the window
 	 */
-	public: int windowDelete(GdkEvent* event, Widget widget)
+	public: int windowDelete(GdkEvent * event, Widget widget)
 	{
 
 		debug(events) printf("TestWindow.widgetDelete : this and widget to delete %X %X\n",this,window);
@@ -210,11 +211,22 @@ class TestWindow : MainWindow
 	}
 
 	private CssProvider css_ify;
+	private GtkThemingEngine the_theme;
 
+	enum StyleProvEnums 
+	{
+		GTK_STYLE_PROVIDER_PRIORITY_FALLBACK = 1,
+		GTK_STYLE_PROVIDER_PRIORITY_THEME = 200,
+		GTK_STYLE_PROVIDER_PRIORITY_SETTINGS = 400,
+		GTK_STYLE_PROVIDER_PRIORITY_APPLICATION = 600,
+		GTK_STYLE_PROVIDER_PRIORITY_USER = 800
+	};
+ 
 	void setup()
 	{
 		int result;
-		string toboCSS = "GtkButton, GtkEntry {color: #ff00ea; font: Segoe UI}";
+		//string toboCSS = "GtkButton, GtkEntry {color: #8F004F; font: Segoe UI}";
+		string toboCSS = "* {font: Segoe UI}";
 		css_ify = new CssProvider();					// Tobo
 		result = css_ify.loadFromData(toboCSS, toboCSS.length);
 		if (result == 0)
@@ -223,12 +235,21 @@ class TestWindow : MainWindow
 			d.run();
 			d.destroy();
 		}
-		
+/*	
+		Label label("test");
+		Window win;
+		auto screen = Gdk::Screen::get_default();
+		auto ctx = label.get_style_context();
+		ctx->add_provider_for_screen(screen, css, GTK_STYLE_PROVIDER_PRIORITY_APPLICATION);
+*/
 		//Frame.defaultBorder = 7;
 
 		VBox mainBox = new VBox(false,0);
 		mainBox.packStart(getMenuBar(),false,false,0);
 		mainBox.packStart(getToolbar(),false,false,0);
+		auto screen = Screen.getDefault();
+		auto ctx = mainBox.getStyleContext();
+		ctx.addProviderForScreen(screen, css_ify, StyleProvEnums.GTK_STYLE_PROVIDER_PRIORITY_APPLICATION);
 
 		Notebook notebook = setNotebook();
 		notebook.setBorderWidth(10);
