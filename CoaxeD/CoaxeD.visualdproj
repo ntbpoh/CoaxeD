@@ -46,7 +46,7 @@
   <compiler>0</compiler>
   <otherDMD>0</otherDMD>
   <program>$(DMDInstallDir)windows\bin\dmd.exe</program>
-  <imppath>&quot;C:\Users\Public\Public Development\GtkD-2.0\src&quot;</imppath>
+  <imppath>C:\Users\Public\Development\GtkD-2.0\src</imppath>
   <fileImppath />
   <outdir>$(ConfigurationName)</outdir>
   <objdir>$(OutDir)</objdir>
@@ -83,7 +83,7 @@
   <objfiles />
   <linkswitches />
   <libfiles>DD-atk.lib+DD-cairo.lib+DD-gdk.lib+DD-gdkpixbuf.lib+DD-gio.lib+DD-glib.lib+DD-gobject.lib+DD-gthread.lib+DD-gtk.lib+DD-gtkc.lib+DD-pango.lib</libfiles>
-  <libpaths>&quot;C:\Users\Public\Public Development\GtkD-2.0\lib&quot;</libpaths>
+  <libpaths>C:\Users\Public\Development\GtkD-2.0\lib</libpaths>
   <deffile />
   <resfile />
   <exefile>Debug\CoaxeD.exe</exefile>

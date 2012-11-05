@@ -1,0 +1,402 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Debug/Lk.bat",
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Debug/CoaxeD.lnkarg",
+			"settings":
+			{
+				"buffer_size": 221,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Debug/CoaxeD.build.lnkarg",
+			"settings":
+			{
+				"buffer_size": 272,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Debug/CoaxeD.build.rsp",
+			"settings":
+			{
+				"buffer_size": 209,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Debug/Env.bat",
+			"settings":
+			{
+				"buffer_size": 79,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "TestWindow.d",
+			"settings":
+			{
+				"buffer_size": 32036,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "CoaxeD.sublime-project",
+			"settings":
+			{
+				"buffer_size": 114,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/tleac_000/Documents/Visual Studio 2012/Projects/CoaxeD/CoaxeD/Debug/dump.txt",
+		"/C/Users/tleac_000/Documents/Visual Studio 2012/Projects/CoaxeD/CoaxeD/Debug/libs.txt",
+		"/C/Users/Public/Public Development/GtkD-2.0/src/gdk/Screen.d",
+		"/C/Users/Public/Public Development/GtkD-2.0/src/gtk/Border.d",
+		"/C/Users/Public/Public Development/GtkD-2.0/src/gtk/ThemingEngine.d",
+		"/C/Users/Public/Public Development/GtkD-2.0/src/gtk/StyleContext.d",
+		"/C/Users/Public/Public Development/GtkD-2.0/src/gtk/CssProvider.d",
+		"/C/Program Files (x86)/GTK+-Runtime-3.4.2/etc/fonts/conf.avail/50-user.conf",
+		"/C/Users/tleac_000/Documents/Visual Studio 2012/Projects/CoaxeD/README.txt",
+		"/C/Users/tleac_000/Documents/Visual Studio 2012/Projects/CoaxeD/CoaxeD/Debug/CoaxeD.json",
+		"/C/Users/Public/Public Development/GtkD-2.0/GNUmakefile",
+		"/C/Users/Public/Public Development/GtkD-2.0/dsss.conf",
+		"/C/Users/Public/Public Development/Dsss-0.78/etc/rebuild/tango",
+		"/C/Users/Public/Public Development/Dsss-0.78/etc/rebuild/default",
+		"/C/Users/Public/Public Development/Dsss-0.78/etc/rebuild/phobos",
+		"/C/Aargh/GtkD-2.0/src/glib/Spawn.d",
+		"/C/Aargh/GtkD-2.0/src/gobject/ObjectG.d",
+		"/C/Aargh/Dsss/etc/rebuild/native",
+		"/C/Aargh/Dsss/etc/rebuild/dmd-win",
+		"/C/Aargh/Dsss/etc/rebuild/default",
+		"/C/Users/tleac_000/Documents/Visual Studio 2012/Projects/CoaxeD/CoaxeD/Debug/CoaxeD.dep"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"getToolbar",
+			"Toolbar",
+			"GTK_STYLE_PROVIDER_PRIORITY_USER",
+			"addProviderForScreen",
+			"D_Version2"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Debug/Lk.bat",
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								109,
+								109
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Batch File/Batch File.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Debug/CoaxeD.lnkarg",
+					"settings":
+					{
+						"buffer_size": 221,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								221,
+								221
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Debug/CoaxeD.build.lnkarg",
+					"settings":
+					{
+						"buffer_size": 272,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								272,
+								272
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Debug/CoaxeD.build.rsp",
+					"settings":
+					{
+						"buffer_size": 209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								209,
+								209
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Debug/Env.bat",
+					"settings":
+					{
+						"buffer_size": 79,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								79,
+								79
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Batch File/Batch File.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "TestWindow.d",
+					"settings":
+					{
+						"buffer_size": 32036,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6363,
+								6373
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/D/D.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3274.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "CoaxeD.sublime-project",
+					"settings":
+					{
+						"buffer_size": 114,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								114,
+								114
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

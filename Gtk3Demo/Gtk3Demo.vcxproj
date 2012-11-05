@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{28DE2C1B-87A3-4171-9A74-C9B5485E3A87}</ProjectGuid>
+    <RootNamespace>Gtk3Demo</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="application.c" />
+    <ClCompile Include="appwindow.c" />
+    <ClCompile Include="assistant.c" />
+    <ClCompile Include="builder.c" />
+    <ClCompile Include="button_box.c" />
+    <ClCompile Include="changedisplay.c" />
+    <ClCompile Include="clipboard.c" />
+    <ClCompile Include="colorsel.c" />
+    <ClCompile Include="combobox.c" />
+    <ClCompile Include="dialog.c" />
+    <ClCompile Include="drawingarea.c" />
+    <ClCompile Include="editable_cells.c" />
+    <ClCompile Include="entry_buffer.c" />
+    <ClCompile Include="entry_completion.c" />
+    <ClCompile Include="expander.c" />
+    <ClCompile Include="hypertext.c" />
+    <ClCompile Include="iconview.c" />
+    <ClCompile Include="iconview_edit.c" />
+    <ClCompile Include="images.c" />
+    <ClCompile Include="infobar.c" />
+    <ClCompile Include="links.c" />
+    <ClCompile Include="list_store.c" />
+    <ClCompile Include="menus.c" />
+    <ClCompile Include="offscreen_window.c" />
+    <ClCompile Include="offscreen_window2.c" />
+    <ClCompile Include="overlay.c" />
+    <ClCompile Include="panes.c" />
+    <ClCompile Include="pickers.c" />
+    <ClCompile Include="pixbufs.c" />
+    <ClCompile Include="printing.c" />
+    <ClCompile Include="rotated_text.c" />
+    <ClCompile Include="search_entry.c" />
+    <ClCompile Include="sizegroup.c" />
+    <ClCompile Include="spinner.c" />
+    <ClCompile Include="stock_browser.c" />
+    <ClCompile Include="textscroll.c" />
+    <ClCompile Include="textview.c" />
+    <ClCompile Include="toolpalette.c" />
+    <ClCompile Include="transparent.c" />
+    <ClCompile Include="tree_store.c" />
+    <ClCompile Include="ui_manager.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
