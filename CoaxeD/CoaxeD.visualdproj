@@ -87,7 +87,7 @@
   <deffile />
   <resfile />
   <exefile>Debug\CoaxeD.exe</exefile>
-  <additionalOptions />
+  <additionalOptions>-c</additionalOptions>
   <preBuildCommand />
   <postBuildCommand />
   <filesToClean>*.obj;*.cmd;*.build;*.json;*.dep</filesToClean>

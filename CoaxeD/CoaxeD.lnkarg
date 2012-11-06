@@ -1,1 +1,6 @@
-CoaxeD.obj,CoaxeD.exe,CoaxeD.map,user32.lib+kernel32.lib+DD-atk.lib+DD-cairo.lib+DD-gdk.lib+DD-gdkpixbuf.lib+DD-gio.lib+DD-glib.lib+DD-gobject.lib+DD-gthread.lib+DD-gtk.lib+DD-gtkc.lib+DD-pango.lib,,/NOIGNORECASE
+Debug\CoaxeD.obj,
+Debug\CoaxeD.exe,
+Debug\CoaxeD.map,
+user32.lib+kernel32.lib+lib\DD-atk.lib+lib\DD-cairo.lib+lib\DD-gdk.lib+lib\DD-gdkpixbuf.lib+lib\DD-gio.lib+lib\DD-glib.lib+lib\DD-gobject.lib+lib\DD-gthread.lib+lib\DD-gtk.lib+lib\DD-gtkc.lib+lib\DD-pango.lib,
+,
+/NOIGNORECASE/SCANLIB;

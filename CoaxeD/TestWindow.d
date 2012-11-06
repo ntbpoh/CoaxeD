@@ -16,6 +16,7 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110, USA
  */
 
+
 module TestWindow;
 
 //debug = 1;
@@ -210,8 +211,6 @@ class TestWindow : MainWindow
 		}
 	}
 
-	private CssProvider css_ify;
-	private GtkThemingEngine the_theme;
 
 	enum StyleProvEnums 
 	{
@@ -225,6 +224,9 @@ class TestWindow : MainWindow
 	void setup()
 	{
 		int result;
+		CssProvider css_ify;
+		//GtkThemingEngine the_theme;
+
 		//string toboCSS = "GtkButton, GtkEntry {color: #8F004F; font: Segoe UI}";
 		string toboCSS = "* {font: Segoe UI}";
 		css_ify = new CssProvider();					// Tobo
@@ -243,7 +245,6 @@ class TestWindow : MainWindow
 		ctx->add_provider_for_screen(screen, css, GTK_STYLE_PROVIDER_PRIORITY_APPLICATION);
 */
 		//Frame.defaultBorder = 7;
-
 		VBox mainBox = new VBox(false,0);
 		mainBox.packStart(getMenuBar(),false,false,0);
 		mainBox.packStart(getToolbar(),false,false,0);

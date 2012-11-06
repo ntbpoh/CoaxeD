@@ -1,8 +1,32 @@
 {
+	"build_systems":
+	[
+		{
+			"name": "GtkD",
+
+			"cmd":
+			[
+				"dmd",
+				"-g", "-debug", "-w", "-wi", "-X", "-c", "-property",
+				"-XfDebug\\CoaxeD.json",
+				"-IC:\\Users\\Public\\Development\\GtkD-2.0\\src",
+				"-deps=Debug\\CoaxeD.dep",
+				"-ofDebug\\CoaxeD.obj",
+				"@CoaxeD.rsp"
+			],
+
+			"file_regex": "^(.*?)\\(([0-9]+)\\)",
+			"selector": "source.d"
+		}
+	],
+
 	"folders":
 	[
 		{
-			"path": "/C/Users/tleac_000/Documents/Visual Studio 2012/Projects/CoaxeD/CoaxeD"
+			"path": "/C/Users/tleac_000/Documents/GitHub/CoaxeD/CoaxeD"
+		},
+		{
+			"path": "/C/Users/Public/Development/GtkD-2.0/src"
 		}
 	]
 }
