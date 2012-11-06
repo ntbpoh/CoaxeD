@@ -237,8 +237,7 @@ class TestWindow : MainWindow
 			d.run();
 			d.destroy();
 		}
-/*	
-		Label label("test");
+/*		Label label("test");
 		Window win;
 		auto screen = Gdk::Screen::get_default();
 		auto ctx = label.get_style_context();
