@@ -8,63 +8,71 @@
 	"buffers":
 	[
 		{
-			"file": "Debug/Lk.bat",
-			"settings":
-			{
-				"buffer_size": 109,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Debug/CoaxeD.lnkarg",
-			"settings":
-			{
-				"buffer_size": 221,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Debug/CoaxeD.build.lnkarg",
-			"settings":
-			{
-				"buffer_size": 272,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Debug/CoaxeD.build.rsp",
-			"settings":
-			{
-				"buffer_size": 209,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Debug/Env.bat",
-			"settings":
-			{
-				"buffer_size": 79,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "TestWindow.d",
 			"settings":
 			{
-				"buffer_size": 32036,
+				"buffer_size": 32023,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "CoaxeD.sublime-project",
+			"file": "/C/Users/Public/Development/GtkD-2.0/src/dsss.conf",
 			"settings":
 			{
-				"buffer_size": 114,
+				"buffer_size": 178,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "TestDrawingArea.d",
+			"settings":
+			{
+				"buffer_size": 14576,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Coaxed.sublime-project",
+			"settings":
+			{
+				"buffer_size": 529,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/tleac_000/AppData/Roaming/Sublime Text 2/Packages/D/D.sublime-build",
+			"settings":
+			{
+				"buffer_size": 189,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "CoaxeD.lnkarg",
+			"settings":
+			{
+				"buffer_size": 289,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Debug/CoaxeD.build.cmd",
+			"settings":
+			{
+				"buffer_size": 1647,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Public/Development/GtkD-2.0/src/gdk/Event.d",
+			"settings":
+			{
+				"buffer_size": 18050,
 				"line_ending": "Unix"
 			}
 		}
 	],
-	"build_system": "",
+	"build_system": "GtkD",
 	"command_palette":
 	{
 		"height": 0.0,
@@ -88,31 +96,16 @@
 	},
 	"file_history":
 	[
-		"/C/Users/tleac_000/Documents/Visual Studio 2012/Projects/CoaxeD/CoaxeD/Debug/dump.txt",
-		"/C/Users/tleac_000/Documents/Visual Studio 2012/Projects/CoaxeD/CoaxeD/Debug/libs.txt",
-		"/C/Users/Public/Public Development/GtkD-2.0/src/gdk/Screen.d",
-		"/C/Users/Public/Public Development/GtkD-2.0/src/gtk/Border.d",
-		"/C/Users/Public/Public Development/GtkD-2.0/src/gtk/ThemingEngine.d",
-		"/C/Users/Public/Public Development/GtkD-2.0/src/gtk/StyleContext.d",
-		"/C/Users/Public/Public Development/GtkD-2.0/src/gtk/CssProvider.d",
-		"/C/Program Files (x86)/GTK+-Runtime-3.4.2/etc/fonts/conf.avail/50-user.conf",
-		"/C/Users/tleac_000/Documents/Visual Studio 2012/Projects/CoaxeD/README.txt",
-		"/C/Users/tleac_000/Documents/Visual Studio 2012/Projects/CoaxeD/CoaxeD/Debug/CoaxeD.json",
-		"/C/Users/Public/Public Development/GtkD-2.0/GNUmakefile",
-		"/C/Users/Public/Public Development/GtkD-2.0/dsss.conf",
-		"/C/Users/Public/Public Development/Dsss-0.78/etc/rebuild/tango",
-		"/C/Users/Public/Public Development/Dsss-0.78/etc/rebuild/default",
-		"/C/Users/Public/Public Development/Dsss-0.78/etc/rebuild/phobos",
-		"/C/Aargh/GtkD-2.0/src/glib/Spawn.d",
-		"/C/Aargh/GtkD-2.0/src/gobject/ObjectG.d",
-		"/C/Aargh/Dsss/etc/rebuild/native",
-		"/C/Aargh/Dsss/etc/rebuild/dmd-win",
-		"/C/Aargh/Dsss/etc/rebuild/default",
-		"/C/Users/tleac_000/Documents/Visual Studio 2012/Projects/CoaxeD/CoaxeD/Debug/CoaxeD.dep"
+		"/C/Users/tleac_000/Documents/GitHub/CoaxeD/CoaxeD/CoaxeD.rsp",
+		"/C/Users/tleac_000/Documents/GitHub/CoaxeD/CoaxeD/Debug/CoaxeD.build.rsp",
+		"/C/Users/tleac_000/AppData/Roaming/Sublime Text 2/Packages/D/D.sublime-build",
+		"/C/Program Files/Sublime Text 2/Pristine Packages/D.sublime-package",
+		"/C/Users/tleac_000/Documents/GitHub/CoaxeD/CoaxeD/Coaxed.sublime-workspace",
+		"/C/Users/tleac_000/Documents/GitHub/CoaxeD/CoaxeD/Unsaved 1"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 37.0
 	},
 	"find_in_files":
 	{
@@ -126,11 +119,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
-			"getToolbar",
-			"Toolbar",
-			"GTK_STYLE_PROVIDER_PRIORITY_USER",
-			"addProviderForScreen",
-			"D_Version2"
+			"button",
+			".type"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -148,49 +138,50 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Debug/Lk.bat",
+					"file": "TestWindow.d",
 					"settings":
 					{
-						"buffer_size": 109,
+						"buffer_size": 32023,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								109,
-								109
+								6003,
+								6003
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Batch File/Batch File.tmLanguage"
+							"syntax": "Packages/D/D.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3150.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "Debug/CoaxeD.lnkarg",
+					"file": "/C/Users/Public/Development/GtkD-2.0/src/dsss.conf",
 					"settings":
 					{
-						"buffer_size": 221,
+						"buffer_size": 178,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								221,
-								221
+								0,
+								0
 							]
 						],
 						"settings":
@@ -205,49 +196,51 @@
 				},
 				{
 					"buffer": 2,
-					"file": "Debug/CoaxeD.build.lnkarg",
+					"file": "TestDrawingArea.d",
 					"settings":
 					{
-						"buffer_size": 272,
+						"buffer_size": 14576,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								272,
-								272
+								3026,
+								3026
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/D/D.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1144.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "Debug/CoaxeD.build.rsp",
+					"file": "Coaxed.sublime-project",
 					"settings":
 					{
-						"buffer_size": 209,
+						"buffer_size": 529,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								209,
-								209
+								130,
+								130
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -257,23 +250,23 @@
 				},
 				{
 					"buffer": 4,
-					"file": "Debug/Env.bat",
+					"file": "/C/Users/tleac_000/AppData/Roaming/Sublime Text 2/Packages/D/D.sublime-build",
 					"settings":
 					{
-						"buffer_size": 79,
+						"buffer_size": 189,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								79,
-								79
+								189,
+								189
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Batch File/Batch File.tmLanguage"
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -283,18 +276,70 @@
 				},
 				{
 					"buffer": 5,
-					"file": "TestWindow.d",
+					"file": "CoaxeD.lnkarg",
 					"settings":
 					{
-						"buffer_size": 32036,
+						"buffer_size": 289,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6363,
-								6373
+								263,
+								263
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "Debug/CoaxeD.build.cmd",
+					"settings":
+					{
+						"buffer_size": 1647,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1647,
+								1647
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Users/Public/Development/GtkD-2.0/src/gdk/Event.d",
+					"settings":
+					{
+						"buffer_size": 18050,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4650,
+								4650
 							]
 						],
 						"settings":
@@ -303,33 +348,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3274.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "CoaxeD.sublime-project",
-					"settings":
-					{
-						"buffer_size": 114,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								114,
-								114
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2674.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -370,7 +389,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 100.0
+		"height": 124.0
 	},
 	"replace":
 	{
@@ -394,9 +413,9 @@
 		"width": 0.0
 	},
 	"show_minimap": true,
-	"show_open_files": true,
+	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
-	"side_bar_width": 150.0,
+	"side_bar_visible": true,
+	"side_bar_width": 201.0,
 	"status_bar_visible": true
 }
