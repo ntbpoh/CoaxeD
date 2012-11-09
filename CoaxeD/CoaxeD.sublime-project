@@ -2,17 +2,12 @@
 	"build_systems":
 	[
 		{
-			"name": "GtkD",
+			"name": "DSSS",
 
 			"cmd":
 			[
-				"dmd",
-				"-g", "-debug", "-w", "-wi", "-X", "-c", "-property",
-				"-XfDebug\\CoaxeD.json",
-				"-IC:\\Users\\Public\\Development\\GtkD-2.0\\src",
-				"-deps=Debug\\CoaxeD.dep",
-				"-ofDebug\\CoaxeD.obj",
-				"@CoaxeD.rsp"
+				"C:\\Users\\Public\\Development\\Dsss-0.78\\bin\\dsss",
+				"build"
 			],
 
 			"file_regex": "^(.*?)\\(([0-9]+)\\)",
@@ -23,7 +18,9 @@
 	"folders":
 	[
 		{
-			"path": "/C/Users/tleac_000/Documents/GitHub/CoaxeD/CoaxeD"
+			"path": "/C/Users/tleac_000/Documents/GitHub/CoaxeD/CoaxeD",
+			"folder_exclude_patterns": ["debug", "release", "lib", "dsss_objs"],
+			"file_exclude_patterns": ["*.tmp", "*.sublime-workspace", "*.last"]
 		},
 		{
 			"path": "/C/Users/Public/Development/GtkD-2.0/src"
